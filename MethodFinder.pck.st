@@ -1,6 +1,7 @@
-'From Cuis7.5 [latest update: #7426] on 19 August 2025 at 4:24:40 pm'!
-'Description '!
-!provides: 'MethodFinder' 1 0!
+'From Cuis7.5 [latest update: #7426] on 20 August 2025 at 9:10:15 am'!
+'Description Add search browser as pre-req'!
+!provides: 'MethodFinder' 1 1!
+!requires: 'SearchBrowser' 1 45 nil!
 SystemOrganization addCategory: #MethodFinder!
 
 
